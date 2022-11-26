@@ -1,0 +1,8 @@
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 1rem;
+  background-color: #ffffff;
+}

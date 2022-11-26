@@ -1,0 +1,9 @@
+.discover_item:hover {
+  color: #c64002;
+  cursor: pointer;
+}
+.news:hover {
+  border: 2px solid #c64002;
+  cursor: pointer;
+  zoom: 1;
+}

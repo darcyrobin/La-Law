@@ -1,0 +1,13 @@
+.main_page {
+  position: relative;
+  padding: 10px;
+  justify-content: space-around;
+}
+@media screen and (min-width: 1008px) {
+  .main_page {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    justify-content: space-around;
+  }
+}

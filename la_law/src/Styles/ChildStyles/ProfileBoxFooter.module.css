@@ -1,0 +1,7 @@
+.profile_box_footer {
+  position: relative;
+}
+.profile_box_list {
+  display: flex;
+  margin: 25px 20px;
+}

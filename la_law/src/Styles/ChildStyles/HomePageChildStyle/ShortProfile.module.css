@@ -1,0 +1,339 @@
+.short_profile {
+  position: relative;
+  z-index: var(--z-tooltip);
+}
+.profile_details_info_home {
+  position: relative;
+  height: 168px;
+  background-color: #ffffff;
+  text-align: center;
+  z-index: var(--z-fixed);
+}
+
+.cover_photo {
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+.cover_photo img {
+  width: 100%;
+  height: 100%;
+}
+.profile_photo {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 20px;
+  right: 200px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.profile_photo img {
+  border-radius: 50%;
+}
+.profile_bio {
+  margin-top: 55px;
+}
+
+.profile_name_home {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none solid rgba(0, 0, 0, 0.9);
+}
+.current_work {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  text-decoration: none solid rgba(0, 0, 0, 0.6);
+}
+.show_more {
+  width: 93vw;
+  border-radius: 8px;
+  margin: 5px 0;
+  height: 45px;
+  background-color: #e0dfdc;
+  display: flex;
+  color: rgba(0, 0, 0, 0.62);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.show_more:hover {
+  border-radius: 5px;
+  background-color: rgb(160, 157, 157);
+}
+.show_more.deactive {
+  display: none;
+}
+.show_details_div {
+  position: relative;
+  margin: 10px 0;
+  padding: 0 20px;
+}
+.show_details_div_title {
+  color: #000000;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.recent_div {
+  display: flex;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 16px;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.recent_div:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+.recent_home_icon {
+  font-size: 16px;
+  color: #050505;
+  margin-right: 10px;
+}
+.recent_div {
+  display: flex;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 16px;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.recent_div:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+.recent_home_icon {
+  font-size: 16px;
+  color: #050505;
+  margin-right: 10px;
+}
+
+.show_less {
+  width: 93vw;
+  border-radius: 8px;
+  margin: 5px 0;
+  height: 45px;
+  background-color: #e0dfdc;
+  color: rgba(0, 0, 0, 0.62);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+.show_less:hover {
+  border-radius: 5px;
+  background-color: rgb(160, 157, 157);
+}
+@media screen and (min-width: 375px) {
+  .profile_photo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    right: 145px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 410px) {
+  /* ================== Home Page ========================== */
+
+  /* ======================= Short Profile ============================= */
+
+  .profile_photo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    right: 170px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 450px) {
+  .profile_photo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    right: 200px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 510px) {
+  .profile_photo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    right: 243px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 600px) {
+  /* ================== Home Page ========================== */
+
+  /* ======================= Short Profile ============================= */
+
+  .profile_photo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    right: 255px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 650px) {
+  /* ================== Home Page ========================== */
+
+  /* ======================= Short Profile ============================= */
+
+  .profile_photo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    right: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 730px) {
+  /* ================== Home Page ========================== */
+
+  /* ======================= Short Profile ============================= */
+
+  .profile_photo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    right: 330px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  /* ================== Home Page ========================== */
+
+  /* ======================= Short Profile ============================= */
+
+  .profile_photo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    right: 360px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 840px) {
+  .profile_photo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    right: 390px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 920px) {
+  /* ================== Home Page ========================== */
+
+  /* ======================= Short Profile ============================= */
+
+  .profile_photo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    right: 425px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  /* ================== Home Page ========================== */
+
+  /* ======================= Short Profile ============================= */
+
+  .profile_photo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    right: 455px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 1008px) {
+  .short_profile {
+    position: relative;
+    z-index: var(--z-tooltip);
+    width: 20vw;
+    height: auto;
+    border-radius: 12px;
+  }
+  .profile_details_info_home {
+    position: relative;
+    height: auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom: 1px dotted #a4a9ad;
+  }
+  .cover_photo img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  .profile_photo {
+    right: 60px;
+    top: 20px;
+  }
+  .profile_bio {
+    width: 100%;
+    padding: 2px 5px;
+  }
+  .show_more {
+    width: 20vw;
+  }
+
+  .show_less {
+    width: 20vw;
+  }
+
+  .show_details_div {
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+}
+@media screen and (min-width: 1165px) {
+  .profile_photo {
+    right: 80px;
+    top: 20px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .profile_photo {
+    right: 95px;
+    top: 20px;
+  }
+}

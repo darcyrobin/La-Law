@@ -1,0 +1,45 @@
+.nav_profile.deactive {
+  display: inline;
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_item {
+  font-size: var(--icon-size);
+  text-align: center;
+  background: #f0f2f5;
+  width: var(--icon-circle-width);
+  height: var(--icon-circle-height);
+  padding-top: 6px;
+  border-radius: 50%;
+}
+.nav_profile_link {
+  color: var(--icon-color-profile);
+  font-size: 1.5rem;
+  padding: 0.4rem;
+  border-radius: 5rem;
+}
+
+.nav_profile_details {
+  color: var(--icon-color-profile);
+  font-size: 0.75rem;
+  padding: 0.4rem;
+  border-radius: 5rem;
+}
+
+.nav_profile_details_active {
+  color: cornflowerblue;
+}
+
+@media screen and (min-width: 375px) {
+  .nav_item {
+    margin: 0 3px;
+  }
+}
+@media screen and (min-width: 840px) {
+  .nav_item {
+    margin: 0 10px;
+  }
+}

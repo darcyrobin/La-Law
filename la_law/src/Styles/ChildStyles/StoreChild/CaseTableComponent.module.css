@@ -1,0 +1,67 @@
+/* Search Division */
+.search_div {
+  position: relative;
+  display: flex;
+  height: 50px;
+  background-color: #fff;
+  width: 320px;
+  align-items: center;
+  margin: 5px;
+  padding: 0 15px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.search_div i {
+  font-size: 25px;
+  padding: 0 15px;
+}
+.search_box {
+  width: 90%;
+  height: 50px;
+  border: none;
+  overflow: unset;
+  outline: none;
+}
+
+/* Button  */
+.add_case_button {
+  width: 130px;
+  padding: 0 10px;
+  height: 50px;
+  background-color: #3fa24f;
+  border-radius: 12px;
+  color: #fff;
+}
+
+/* Table  */
+.case_table {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.table_head th {
+  padding: 15px;
+}
+.single_case td {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 530px) {
+  .case_table {
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10px;
+  }
+  .table_head th {
+    padding: 3px;
+  }
+  .single_case td {
+    text-align: center;
+    padding: 4px;
+  }
+}
+@media screen and (max-width: 830px) {
+}
+@media screen and (min-width: 950px) {
+}

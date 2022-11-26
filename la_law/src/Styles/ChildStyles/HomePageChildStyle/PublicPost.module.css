@@ -1,0 +1,86 @@
+.post_template {
+  position: relative;
+  height: auto;
+  padding: 8px 0;
+  margin: 5px;
+}
+.post_sender_title {
+  position: relative;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px;
+}
+
+.post_sender_info {
+  position: relative;
+  display: flex;
+  padding: 5px;
+}
+.sender_photo {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border: none;
+  margin: 0 10px;
+}
+.sender_name_and_work {
+  position: relative;
+}
+
+.post_sender_name {
+  color: black;
+  color: 14px;
+}
+.post_sender_current_work {
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.post_option {
+  position: relative;
+  display: flex;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  background-color: #3c3f44;
+  margin: 0 2.5px;
+  border-radius: 50%;
+}
+.sender_photo {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border: none;
+  margin: 0 10px;
+}
+
+.sender_photo img {
+  border-radius: 50%;
+}
+
+.sender_post {
+  position: relative;
+  height: auto;
+  margin: 3px 15px;
+  padding: 10px 3px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.sender_file {
+  position: relative;
+  margin: 0 15px;
+  border-radius: 4px;
+}
+.sender_file img {
+  border-radius: 4px;
+}

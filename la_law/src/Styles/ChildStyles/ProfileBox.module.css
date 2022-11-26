@@ -1,0 +1,26 @@
+.profile_box {
+  position: absolute;
+  top: 63px;
+  right: 25px;
+  border-radius: 8px;
+  width: 363px;
+  height: 440px;
+  background-color: rgb(255, 255, 255);
+  z-index: var(--z-fixed);
+}
+@media screen and (max-width: 375px) {
+  .profile_box {
+    position: absolute;
+    top: 63px;
+    right: 5px;
+    display: none;
+    border-radius: 8px;
+    width: 350px;
+    height: 440px;
+    background-color: rgb(255, 255, 255);
+    z-index: var(--z-fixed);
+  }
+  .profile_box.active {
+    display: inline;
+  }
+}

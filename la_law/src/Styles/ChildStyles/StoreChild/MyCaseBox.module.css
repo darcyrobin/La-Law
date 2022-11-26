@@ -1,0 +1,10 @@
+.my_case_box {
+  width: 100%;
+  margin: 20px 10px;
+  overflow: hidden;
+}
+@media screen and (min-width: 950px) {
+  .my_case_box {
+    width: 65%;
+  }
+}

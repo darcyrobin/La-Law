@@ -1,0 +1,50 @@
+.my_case_category {
+  position: relative;
+  overflow: hidden;
+  width: 26vw;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-top: 10px;
+  display: none;
+}
+
+.category_title {
+  display: flex;
+  align-items: center;
+}
+.category_title i {
+  padding: 20px;
+  font-size: 35px;
+  color: black;
+}
+.category_title p {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+.case_category {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding-left: 35px;
+  cursor: pointer;
+}
+.case_category:hover {
+  background-color: #ebebeb;
+}
+
+.case_category i {
+  font-size: var(--icon-size);
+  color: var(--icon-color);
+  padding: 10px;
+}
+.case_category p {
+  color: var(--icon-color);
+  padding: 10px;
+  font-size: 16px;
+}
+@media screen and (min-width: 950px) {
+  .my_case_category {
+    display: inline;
+  }
+}
