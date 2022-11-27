@@ -13,11 +13,11 @@ export default function CaseBox({cases}) {
           <th>Division</th>
           <th>Result</th>
         </tr>
-        {cases.map((data, index) => {
+        {cases.length > 0 ? cases.map((data, index) => {
           return (
               <SingleCase data={data} index={index+1} key={data._id}/>
           );
-        })}
+        }): <div style={{position:'relative', textAlign:'center', alignItems:'center', padding: '20px', margin:'20px'}}>No Data Found</div>}
       </table>
     </>
   );

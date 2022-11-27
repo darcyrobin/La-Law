@@ -18,6 +18,7 @@ export default function MyCaseBox() {
       dispatch(fetchCaseView)
     }
   }, [ userInfo, dispatch]);
+  
   return (
     <div className={classes.my_case_box}>
       <div

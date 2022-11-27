@@ -9,7 +9,7 @@ export default function SingleCase({data, index}) {
         <td>{data.case_number}</td>
         <td>{data.defendant} <br/> VS <br/> {data.complainant}</td>
         <td>
-          <a href="/">{data.case_title}</a>
+          <a href={`store/case/${data._id}`}>{data.case_title}</a>
         </td>
         <td>{data.division}</td>
         <td> {data.case_respondent}</td>
